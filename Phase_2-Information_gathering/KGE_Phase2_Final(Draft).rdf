@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#has">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#NO_2_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#NO_2_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#O3_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#O3_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#PM10_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#PM10_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#PM25_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#PM25_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#SO_2_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#SO_2_value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#datatime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#datatime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#datetime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#datetime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#elevation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#elevation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#humidity_perc -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#humidity_perc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#latitude">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#location_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#location_id">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#longitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_NO_2_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_NO_2_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_O3_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_O3_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_PM10_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_PM10_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_PM25_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_PM25_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_SO_2_value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_SO_2_value">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_humidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_humidity">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_precipitation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_precipitation">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_temp_avg -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_temp_avg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_temp_max -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_temp_max">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_temp_min -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_temp_min">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_wind_speed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pred_wind_speed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pressure_avg -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#pressure_avg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#rain_precipitation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#rain_precipitation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#station_code -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#station_code">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#station_id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#station_id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#temp_avg -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#temp_avg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#temp_max -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#temp_max">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#temp_min -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#temp_min">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#visibility -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#visibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#wind_avg -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#wind_avg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#wind_direction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#wind_direction">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#wind_max -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#wind_max">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Trento -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Trento"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Pollution_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Current_Weather_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Pollution_Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#History_Weather_Report"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Location"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Pollution_Prediction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Report"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Station"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#Weather_Prediction"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
