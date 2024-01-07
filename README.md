@@ -1,13 +1,14 @@
 # Trentino Weather and Climate Change
 Repository for Knowledge Graph Engineering project focused on the creation of knowledge graph for weather and air pollution data in Trentino.
-*Link to the Knowledge Graph Engineering webpage (webpage)[https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/]*
+
+*Link to the Knowledge Graph Engineering webpage [webpage](https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/)*
 by **Veronika Deketova** and **Hasan Aldhahi**
 
 ## Useful links
-(Official Course Website)[https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/]
-(Project Repository)[https://github.com/deketver/Trentino_weather_climate_change]
-(Project Report)[]
-(Project Presentation)[]
+[Official Course Website](https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/) \\
+[Project Repository](https://github.com/deketver/Trentino_weather_climate_change) \\
+[Project Report]()
+[Project Presentation]()
 
 ## Introduction
 Climate change and weather fluctuations are having significant impact on livability in many cities around the whole globe. Since industrial revolution, we observe a significant rise in the concentration of chemical substances which were not present in the atmosphere in such amounts before. The increase of air pollutant concentration can have a significant effect on human health, especially when taken in consideration more sensitive groups, such as elder people, children
