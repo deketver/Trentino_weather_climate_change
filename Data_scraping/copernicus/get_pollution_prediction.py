@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import os
 import subprocess
+import random
 
 pollutant_id_conversion = {'NO2': 'no2', 'PM10': 'pm10', 'PM25': 'pm2p5', # our mapping vs ECMWF mapping
                            'SO2': 'so2', 'O3': 'go3'}
@@ -31,17 +32,18 @@ if __name__ =="__main__":
         prediction_data = {"SAMPLINGPOINT_LOCALID":[], "DATETIME":[], "PREDICATION_STEP": [], "PROPERTY": [], "VALUE_NUMERIC": [], "UNIT": [], "STATIONCODE": [], "STATIONNAME": [], "LONGITUDE": [], "LATITUDE": [], "MUNICIPALITY": []}
         for station in stations_data:
             print(station)
-            station_data = get_pollution_data(stations_data[station], pollutant_id_conversion[pullutant], datetime, prediction_steps)
+            #station_data = get_pollution_data(stations_data[station], pollutant_id_conversion[pullutant], datetime, prediction_steps)
             prediction_data["SAMPLINGPOINT_LOCALID"].append(station)
             prediction_data["DATETIME"].append(datetime)
             prediction_data["PREDICATION_STEP"].append(prediction_steps)
             prediction_data["PROPERTY"].append(pullutant)
-            prediction_data["VALUE_NUMERIC"].append(station_data["data"][0]["value"])
+            #prediction_data["VALUE_NUMERIC"].append(station_data["data"][0]["value"])
+            # rand float value between 1 and 10
+            prediction_data["VALUE_NUMERIC"].append(random.uniform(1, 10))
             prediction_data["UNIT"].append('ug/m3')
-            prediction_data["ALTITUDE"].append([stations_data[station]["ALTITUDE"]])
-            prediction_data["STATIONCODE"].append(stations_data[station]["STATION_CODE"])
+            prediction_data["STATIONCODE"].append(station)
             prediction_data["STATIONNAME"].append(stations_data[station]["STATION_NAME"])
-            prediction_data["LONGITUDE"].append(stations_data[station]["LONGTITUDE"])
+            prediction_data["LONGITUDE"].append(stations_data[station]["LONGITUDE"])
             prediction_data["LATITUDE"].append(stations_data[station]["LATITUDE"])
             prediction_data["MUNICIPALITY"].append(stations_data[station]["MUNICIPALITY"])
         df = pd.DataFrame(prediction_data)
