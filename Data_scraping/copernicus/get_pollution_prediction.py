@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import os
 import subprocess
 
 pollutant_id_conversion = {'NO2': 'no2', 'PM10': 'pm10', 'PM25': 'pm2p5', # our mapping vs ECMWF mapping
@@ -44,5 +45,8 @@ if __name__ =="__main__":
             prediction_data["LATITUDE"].append(stations_data[station]["LATITUDE"])
             prediction_data["MUNICIPALITY"].append(stations_data[station]["MUNICIPALITY"])
         df = pd.DataFrame(prediction_data)
-        df.to_csv(f"prediction_data_{pullutant}_{datetime}_{prediction_steps}.csv", index=False)
+        # check whether folder exists
+        if not os.path.exists("prediction_data"):
+            os.makedirs("prediction_data")
+        df.to_csv(f"prediction_data/prediction_data_{pullutant}_{datetime}_{prediction_steps}.csv", index=False)
         
