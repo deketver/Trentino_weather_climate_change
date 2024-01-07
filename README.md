@@ -2,12 +2,13 @@
 Repository for Knowledge Graph Engineering project focused on the creation of knowledge graph for weather and air pollution data in Trentino.
 
 *Link to the Knowledge Graph Engineering webpage [webpage](https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/)*
-by **Veronika Deketova** and **Hasan Aldhahi**
+
+Project authors: **Veronika Deketova** and **Hasan Aldhahi**
 
 ## Useful links
 [Official Course Website](https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/) \\
 [Project Repository](https://github.com/deketver/Trentino_weather_climate_change) \\
-[Project Report]()
+[Project Report]() \\
 [Project Presentation]()
 
 ## Introduction
@@ -31,4 +32,27 @@ The goal of this project is to develop a Knowledge Graph (KG) that offers thorou
 - Resource Structure:
 Historical air pollution data gathered from 2013 form the basis of our resource, together with weather data collected since 2013. In order to create fresh historical records of air quality measurements gathered over time, this historical archive serves as a foundation. Users are always provided access to the most recent data on air quality because of real-time data feeds that continually fill the database. This historical information allows for a thorough understanding of the air quality in Trentino, making it an asset for both locals and visitors. It also allows for real-time observations and forecasts.
 
+## Purpose Formalization
+### Defined scenarios
+
+- **Scenario 1** - The number of people with lowered immunity or suffering from breathing difficulties, or chronic health conditions is non-negligible even in the Trentino area. 
+
+- **Scenario 2** - With growing awareness about the possible impacts of air pollution on human health increases as well number of people who are worried about spending their free time outside during unpleasant air situations. 
+
+- **Scenario 3** - Trentino has stunning nature and many possibilities for spending time outdoors. For successful trip planning, it is useful to have information about short-term weather prediction.
+
+- **Scenario 4** - Trentino area is very lucrative for organizing many sports events. Weather history together with air quality history can help while deciding about the ideal location and date for a sports race event.
+
+- **Scenario 5** - Weather stability and air pollution can have a significant effect on produced agricultural products. Having long-term statistics for specific Trentino area can bring valuable information while making decisions in the agricultural field.
+
+## Datasets
+
+## ER diagram
+
+## Formal modeling
+
+### Teleontology
+
+## Data Integradion
+### Final KG
 
