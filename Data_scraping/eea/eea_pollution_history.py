@@ -27,9 +27,9 @@ not_found = set()
 
 
 # loop through the files in the current folder
-for file in os.listdir("daily/"):
+for file in os.listdir("converted_daily/"):
     if file.endswith(".csv"):
-        daily_file = pd.read_csv("daily/" + file)
+        daily_file = pd.read_csv("converted_daily/" + file)
         column_values_long_names = daily_file['SAMPLINGPOINT_LOCALID'].values
         for code in station_codes:
             print(code)
