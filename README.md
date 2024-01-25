@@ -60,13 +60,14 @@ This service is widely accessible after granting access. Data has been downloade
 Platform focused on aspects of meteorology, snow science, and glaciology in Trentino province, [webpage](https://www.meteotrentino.it/index.html##!/home).
 
 ## ER diagram
-![ER diagram](https://github.com/deketver/Trentino_weather_climate_change/blob/master/Phase_5-Data_definition/ER_diagram/ER_diagram.png)
+![ER diagram](/Trentino_weather_climate_change/Phase_5-Data_definition/ER_diagram/ER_diagram.png)
 
 ## Formal modeling
 Formal modeling was done by creating teleontology by extending our existing teleology with the reference ontologies following the language alignment. Three approaches have been used: Top-Down, Bottom-Up, and Middle-out. In all these approaches reuse the concepts from existing Knowledge resources. The main goal in iTelos process is re-usability and share-ability. Then Language alignment is used for semantic interoperability enhancement. 
 
 ### Defined data properties
-Protege modeled [data properties](/Trentino_weather_climate_change/Phase_2-Information_gathering/protege.jpeg).
+Protege modeled 
+![data properties](/Trentino_weather_climate_change/Phase_2-Information_gathering/protege.jpeg).
 
 ### Teleontology
 Final created teleontology from formal modeling phase.
