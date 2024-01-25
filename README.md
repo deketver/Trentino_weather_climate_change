@@ -25,7 +25,7 @@ health interests.
 The goal of this project is to develop a Knowledge Graph (KG) that offers thorough data regarding the weather and air quality, as climate change factor, in Trentino. The final KG is a useful tool for anyone who is looking for details on different air quality monitoring locations and pollution or weather forecasts throughout the Trentino geographical area. As well as the health impacts related to poor air quality, and the appropriate procedures to be taken to mitigate the risks. 
 - Scope and Temporal Domain: 
   - Real-time measurement: Air quality and weather measures taken in real-time starting at the time of the search, providing current data.
-  - 24-hour and 48-hour forecast: 24-hour or 48-hour air quality forecasts to assist users in making outdoor plans while taking future air quality conditions and weather situation into account.
+  - 24-hour forecast: 24-hour air quality forecasts to assist users in making outdoor plans while taking future air quality conditions and weather situation into account.
   - Lastly, historical data on air quality, referring to the time from 2013 to 2024, sheds the light on Trentino's mid-range trends in air quality, and the historical data from 2013 reflects on the weather trends and temperatures in the past. 
 - User Demand:
  The goal of the project is to provide a service that enables users across Trentino to access these different temporal data about different air quality observation sites and forecasts. By taking into account air quality and its historical trends as well as the forecasts with connection to the weather data, this service provided by the Knowledge graph will impact the users decision making process effectively in regards to outdoor activities, travel, and general well-being.
@@ -60,16 +60,22 @@ This service is widely accessible after granting access. Data has been downloade
 Platform focused on aspects of meteorology, snow science, and glaciology in Trentino province, [webpage](https://www.meteotrentino.it/index.html##!/home).
 
 ## ER diagram
+![ER diagram](https://github.com/deketver/Trentino_weather_climate_change/blob/master/Phase_5-Data_definition/ER_diagram/ER_diagram.jpg)
 
 ## Formal modeling
 Formal modeling was done by creating teleontology by extending our existing teleology with the reference ontologies following the language alignment. Three approaches have been used: Top-Down, Bottom-Up, and Middle-out. In all these approaches reuse the concepts from existing Knowledge resources. The main goal in iTelos process is re-usability and share-ability. Then Language alignment is used for semantic interoperability enhancement. 
 
+### Defined data properties
+Protege modeled [data properties](https://github.com/deketver/Trentino_weather_climate_change/blob/master/Phase_2-Information_gathering/protege.jpeg).
+
 ### Teleontology
 Final created teleontology from formal modeling phase.
+![Teleontology](https://github.com/deketver/Trentino_weather_climate_change/blob/master/Phase_4-Knowledge_definition/teleontology.jpg)
 
 ## Data Integradion
 
 After data modeling phase in [Karma tool](https://usc-isi-i2.github.io/karma/), produced turtle files have been used as an input for Ontotext [GraphDB](https://www.ontotext.com/products/graphdb/). Created Knowledge Graph have been queried for defined competency questions.
 
 ### Final KG
+[Final KG files](https://github.com/deketver/Trentino_weather_climate_change/tree/master/Phase_5-Data_definition)
 
