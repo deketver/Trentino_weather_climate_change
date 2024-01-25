@@ -1,0 +1,167 @@
+<http://localhost:8080/source/0_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/0_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://localhost:8080/source/0_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.10434000029117" .
+<http://localhost:8080/source/0_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/0_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "9.791049999999998" .
+<http://localhost:8080/source/0_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT1859A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "TRENTO VBZ" .
+<http://localhost:8080/source/0_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.110230000034568" .
+<http://localhost:8080/source/0_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1859A> .
+<http://localhost:8080/source/IT1859A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/0_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/0_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "13.9996" .
+<http://localhost:8080/source/0_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/0_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "1.12277" .
+<http://localhost:8080/source/IT1859A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/0_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "8.881" .
+<http://localhost:8080/source/IT1859A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/0_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/0_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/0_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1859A> .
+<http://localhost:8080/source/0_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "41.8838" .
+<http://localhost:8080/source/0_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/0_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "Via Bolzano - Trento (TN)" .
+
+<http://localhost:8080/source/IT1191A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/1_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1191A> .
+<http://localhost:8080/source/1_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/1_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT1191A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "MONTE GAZA" .
+<http://localhost:8080/source/1_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT1191A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "29.9221" .
+<http://localhost:8080/source/1_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "9.45944" .
+<http://localhost:8080/source/1_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "10.958040000068957" .
+<http://localhost:8080/source/1_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/1_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "6.61035" .
+<http://localhost:8080/source/1_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "0.452701" .
+<http://localhost:8080/source/1_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/IT1191A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/1_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/1_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.082530000183" .
+<http://localhost:8080/source/1_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/1_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "11.5506" .
+<http://localhost:8080/source/1_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1191A> .
+<http://localhost:8080/source/1_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "MALGA GAZA - Vallelaghi (TN)" .
+<http://localhost:8080/source/1_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+
+<http://localhost:8080/source/2_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.06292999970768" .
+<http://localhost:8080/source/2_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "9.791049999999998" .
+<http://localhost:8080/source/2_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "13.9996" .
+<http://localhost:8080/source/2_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT1037A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/IT1037A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/2_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1037A> .
+<http://localhost:8080/source/2_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/2_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "PARCO SANTA CHIARA - Trento (TN)" .
+<http://localhost:8080/source/2_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/IT1037A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "TRENTO PSC" .
+<http://localhost:8080/source/2_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://localhost:8080/source/2_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/2_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1037A> .
+<http://localhost:8080/source/2_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "41.8838" .
+<http://localhost:8080/source/2_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/2_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "8.881" .
+<http://localhost:8080/source/2_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.12620000032231" .
+<http://localhost:8080/source/IT1037A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/2_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "1.12277" .
+
+<http://localhost:8080/source/IT0703A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/3_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT0703A> .
+<http://localhost:8080/source/IT0703A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "BORGO VAL" .
+<http://localhost:8080/source/3_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "1.78284" .
+<http://localhost:8080/source/3_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/3_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "3.21087" .
+<http://localhost:8080/source/3_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "7.27498" .
+<http://localhost:8080/source/3_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://localhost:8080/source/3_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "10.403" .
+<http://localhost:8080/source/3_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "VIA 4 NOVEMBRE - Borgo Valsugana (TN)" .
+<http://localhost:8080/source/3_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/3_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.05184000019839" .
+<http://localhost:8080/source/3_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT0703A> .
+<http://localhost:8080/source/3_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "50.907900000000005" .
+<http://localhost:8080/source/3_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/3_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/3_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.453889999980522" .
+<http://localhost:8080/source/IT0703A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/3_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/IT0703A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+
+<http://localhost:8080/source/4_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.26405999986327" .
+<http://localhost:8080/source/4_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT2285A> .
+<http://localhost:8080/source/IT2285A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "CR2 Cortina sulla strada del vino" .
+<http://localhost:8080/source/4_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "7.27782" .
+<http://localhost:8080/source/IT2285A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/4_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "VIA PALUDI - Cortina ssdv (BZ)" .
+<http://localhost:8080/source/IT2285A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/4_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/4_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT2285A> .
+<http://localhost:8080/source/4_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "10.4044" .
+<http://localhost:8080/source/4_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/4_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.223240000442871" .
+<http://localhost:8080/source/4_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/4_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "0.7295280000000001" .
+<http://localhost:8080/source/4_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/4_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://localhost:8080/source/4_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT2285A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/4_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/4_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/4_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "8.24302" .
+<http://localhost:8080/source/4_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/4_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "49.8307" .
+
+<http://localhost:8080/source/5_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.1968399996924" .
+<http://localhost:8080/source/5_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/5_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1930A> .
+<http://localhost:8080/source/5_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "1.12277" .
+<http://localhost:8080/source/5_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/5_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/5_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/5_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "13.9996" .
+<http://localhost:8080/source/5_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "41.8838" .
+<http://localhost:8080/source/5_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/5_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1930A> .
+<http://localhost:8080/source/IT1930A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT1930A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "PIANA ROTALIANA" .
+<http://localhost:8080/source/5_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.113430000299225" .
+<http://localhost:8080/source/IT1930A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/5_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/5_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "Sette Pergole - Mezzolombardo (TN)" .
+<http://localhost:8080/source/5_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "9.791049999999998" .
+<http://localhost:8080/source/5_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/IT1930A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/5_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/5_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://localhost:8080/source/5_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "8.881" .
+
+<http://localhost:8080/source/6_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.340139999780511" .
+<http://localhost:8080/source/6_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035> "8.24302" .
+<http://localhost:8080/source/6_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "VIA GALIZIA - Laives (BZ)" .
+<http://localhost:8080/source/6_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.43482999971158" .
+<http://localhost:8080/source/IT1696A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/6_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#Interval> .
+<http://localhost:8080/source/IT1696A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6_prediction_pollution> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1696A> .
+<http://localhost:8080/source/6_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/time#temporalentity> .
+<http://localhost:8080/source/6_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "20240107120000" .
+<http://localhost:8080/source/6_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037> "7.27782" .
+<http://localhost:8080/source/6_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034> "0.7295280000000001" .
+<http://localhost:8080/source/6_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033> .
+<http://localhost:8080/source/IT1696A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "LS1 Laives" .
+<http://localhost:8080/source/6_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/6_prediction_pollution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#km4c:prediction> .
+<http://localhost:8080/source/6_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1696A> .
+<http://localhost:8080/source/6_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036> "49.8307" .
+<http://localhost:8080/source/IT1696A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/6_prediction_pollution> <http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038> "10.4044" .
+<http://localhost:8080/source/6_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .

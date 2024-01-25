@@ -1,0 +1,83 @@
+<http://localhost:8080/source/IT1859A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/0_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT1859A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT1859A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/0_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.10434000029117" .
+<http://localhost:8080/source/0_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/0_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT1859A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "TRENTO VBZ" .
+<http://localhost:8080/source/0_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.110230000034568" .
+<http://localhost:8080/source/0_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1859A> .
+<http://localhost:8080/source/0_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "Via Bolzano - Trento (TN)" .
+
+<http://localhost:8080/source/IT1191A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT1191A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/1_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT1191A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "MONTE GAZA" .
+<http://localhost:8080/source/1_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.082530000183" .
+<http://localhost:8080/source/IT1191A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/1_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/1_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1191A> .
+<http://localhost:8080/source/1_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "MALGA GAZA - Vallelaghi (TN)" .
+<http://localhost:8080/source/1_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "10.958040000068957" .
+
+<http://localhost:8080/source/2_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.06292999970768" .
+<http://localhost:8080/source/2_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "PARCO SANTA CHIARA - Trento (TN)" .
+<http://localhost:8080/source/IT1037A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "TRENTO PSC" .
+<http://localhost:8080/source/2_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/2_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT1037A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/IT1037A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/2_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.12620000032231" .
+<http://localhost:8080/source/IT1037A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/2_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1037A> .
+
+<http://localhost:8080/source/IT0703A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.05184000019839" .
+<http://localhost:8080/source/3_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT0703A> .
+<http://localhost:8080/source/3_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT0703A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "BORGO VAL" .
+<http://localhost:8080/source/3_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.453889999980522" .
+<http://localhost:8080/source/IT0703A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/3_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT0703A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/3_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/3_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "VIA 4 NOVEMBRE - Borgo Valsugana (TN)" .
+
+<http://localhost:8080/source/4_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.26405999986327" .
+<http://localhost:8080/source/4_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.223240000442871" .
+<http://localhost:8080/source/IT2285A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "CR2 Cortina sulla strada del vino" .
+<http://localhost:8080/source/4_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT2285A> .
+<http://localhost:8080/source/4_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT2285A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/4_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "VIA PALUDI - Cortina ssdv (BZ)" .
+<http://localhost:8080/source/4_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT2285A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT2285A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/4_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://localhost:8080/source/5_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.1968399996924" .
+<http://localhost:8080/source/IT1930A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT1930A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "PIANA ROTALIANA" .
+<http://localhost:8080/source/5_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1930A> .
+<http://localhost:8080/source/IT1930A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/5_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/5_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/5_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.113430000299225" .
+<http://localhost:8080/source/5_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "Sette Pergole - Mezzolombardo (TN)" .
+<http://localhost:8080/source/5_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/IT1930A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+
+<http://localhost:8080/source/6_location> <http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270> "11.340139999780511" .
+<http://localhost:8080/source/IT1696A> <http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040> "LS1 Laives" .
+<http://localhost:8080/source/6_location> <http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021> "VIA GALIZIA - Laives (BZ)" .
+<http://localhost:8080/source/6_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#location_GID-12020> .
+<http://localhost:8080/source/IT1696A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://knowdive.disi.unitn.it/etype#station_GID-12019> .
+<http://localhost:8080/source/6_location> <http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263> "46.43482999971158" .
+<http://localhost:8080/source/IT1696A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/6_location> <http://schema.org/part_of_GID_12046> <http://localhost:8080/source/IT1696A> .
+<http://localhost:8080/source/6_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://localhost:8080/source/IT1696A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .
+<http://localhost:8080/source/6_location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity> .

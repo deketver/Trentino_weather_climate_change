@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/hasanmarwanmahmoodaldhahi/ontologies/2023/9/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://knowdive.disi.unitn.it/etype"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:include_GID-12045 -->
+
+    <owl:ObjectProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:include_GID-12045">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#location_GID-12020"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#station_GID-12019"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://schema.org/part_of_GID_12046 -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/part_of_GID_12046">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.has_station_code_GID-12044 -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.has_station_code_GID-12044">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#station_GID-12019"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_NO2_value_GID-12015 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_NO2_value_GID-12015">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_O3_value_GID-12016 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_O3_value_GID-12016">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_PM10_value_GID-12018 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_PM10_value_GID-12018">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_PM25_value_GID-12017 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_PM25_value_GID-12017">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_SO2_value_GID-12014 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_SO2_value_GID-12014">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_datetime_GID-12024 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_datetime_GID-12024">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_elevation_GID-49932 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_elevation_GID-49932">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#location_GID-12020"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_humidity_perc__GID-12007 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_humidity_perc__GID-12007">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_id_GID-12021">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#location_GID-12020"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#station_GID-12019"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_latitude_GID-46263">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#location_GID-12020"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_location_id_GID-12039 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_location_id_GID-12039">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#station_GID-12019"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_longitude_GID-46270">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#location_GID-12020"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_name__GID-12040">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#station_GID-12019"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_NO2_value_GID-12035">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_O3_value_GID-12036">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_PM10_value_GID-12038">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_PM25_value_GID-12037">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_SO2_value_GID-12034">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_humidity_GID-12031 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_humidity_GID-12031">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_precipitation_GID-12032 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_precipitation_GID-12032">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_temp_avg__GID-12043 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_temp_avg__GID-12043">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_temp_max_GID-12028 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_temp_max_GID-12028">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_temp_min__GID-12027 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_temp_min__GID-12027">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pred_wind_speed_GID-12030 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pred_wind_speed_GID-12030">
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_pressure_avg_GID-12011 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_pressure_avg_GID-12011">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_rain_precipitation_GID-12012 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_rain_precipitation_GID-12012">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_station_id_GID-12023 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_station_id_GID-12023">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_temp_avg__GID-12041 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_temp_avg__GID-12041">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_temp_max__GID-12006 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_temp_max__GID-12006">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_visibility_GID-26112 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_visibility_GID-26112">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_wind_avg__GID-12042 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_wind_avg__GID-12042">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_wind_direction_GID-12010 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_wind_direction_GID-12010">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#schema:has_wind_max_GID-12009 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowdive.disi.unitn.it/etype#schema:has_wind_max_GID-12009">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+        <rdfs:domain rdf:resource="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#location_GID-12020 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#location_GID-12020">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#km4c:prediction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#report_GID-12001 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#report_GID-12001">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#station_GID-12019 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#station_GID-12019">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026 -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026">
+        <rdfs:subClassOf rdf:resource="http://knowdive.disi.unitn.it/etype#km4c:prediction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://knowdive.disi.unitn.it/etype#km4c:prediction -->
+
+    <owl:Class rdf:about="http://knowdive.disi.unitn.it/etype#km4c:prediction">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#spatial_entity"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#temporalentity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#temporalentity -->
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#temporalentity"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#current_weather_report_GID-12002"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#currentpollutionreport_GID-12013"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#history_pollution_report_GID-12025"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#history_weather_report_GID-12022"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#location_GID-12020"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#pollution_prediction_GID-12033"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#report_GID-12001"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#station_GID-12019"/>
+            <rdf:Description rdf:about="http://knowdive.disi.unitn.it/etype#weather_prediction_GID-12026"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

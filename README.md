@@ -46,13 +46,30 @@ Historical air pollution data gathered from 2013 form the basis of our resource,
 - **Scenario 5** - Weather stability and air pollution can have a significant effect on produced agricultural products. Having long-term statistics for specific Trentino area can bring valuable information while making decisions in the agricultural field.
 
 ## Datasets
+In this project, we used following datasets:
+### European Environmental Agency
+Up-to-date air quality data and Air Quality download service data have been used. Links for [current data](https://www.eea.europa.eu/data-and-maps/explore-interactive-maps/up-to-date-air-quality-data) and for [historical download service](https://www.eea.europa.eu/en/datahub/datahubitem-view/778ef9f5-6293-4846-badd-56a29c70880d). 
+Our focus was made on following pollutants: NO2, SO2, O3, PM10 and PM2.5.
+
+### Copernicus Atmosphere Monitoring Service
+Data provided by Copernicus Atmosphere Monitoring Service in cooperation with  European Centre for Medium-range Weather Forecasts allowed to work with quality modeled data.
+This service is widely accessible after granting access. Data has been downloaded via appropriate FTP server. Closer documentation and data description as available on 
+[Confluence documentation](https://confluence.ecmwf.int/display/CKB/FTP+access+to+CAMS+global+data).
+
+### Meteotrentino 
+Platform focused on aspects of meteorology, snow science, and glaciology in Trentino province, [webpage](https://www.meteotrentino.it/index.html##!/home).
 
 ## ER diagram
 
 ## Formal modeling
+Formal modeling was done by creating teleontology by extending our existing teleology with the reference ontologies following the language alignment. Three approaches have been used: Top-Down, Bottom-Up, and Middle-out. In all these approaches reuse the concepts from existing Knowledge resources. The main goal in iTelos process is re-usability and share-ability. Then Language alignment is used for semantic interoperability enhancement. 
 
 ### Teleontology
+Final created teleontology from formal modeling phase.
 
 ## Data Integradion
+
+After data modeling phase in [Karma tool](https://usc-isi-i2.github.io/karma/), produced turtle files have been used as an input for Ontotext [GraphDB](https://www.ontotext.com/products/graphdb/). Created Knowledge Graph have been queried for defined competency questions.
+
 ### Final KG
 
