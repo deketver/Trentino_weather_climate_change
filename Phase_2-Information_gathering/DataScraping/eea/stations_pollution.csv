@@ -1,0 +1,8 @@
+STATIONCODE,STATION_NAME,UNIQUE_IDENTIFIER, LOCATION_IDENTIFIER
+IT1859A,TRENTO VBZ,0_station, 0_location
+IT1191A,MONTE GAZA,1_station, 1_location
+IT1037A,TRENTO PSC,2_station, 2_location
+IT0703A,BORGO VAL,3_station, 3_location
+IT2285A,CR2 Cortina sulla strada del vino,4_station, 4_location
+IT1930A,PIANA ROTALIANA,5_station, 5_location
+IT1696A,LS1 Laives,6_station, 6_location

@@ -8,8 +8,7 @@ Project authors: **Veronika Deketova** and **Hasan Aldhahi**
 ## Useful links
 [Official Course Website](https://unitn-knowledge-graph-engineering.github.io/KGE2023-website/) \\
 [Project Repository](https://github.com/deketver/Trentino_weather_climate_change) \\
-[Project Report]() \\
-[Project Presentation]()
+[Project Report](https://github.com/deketver/Trentino_weather_climate_change/blob/master/Documentation/KGE_2023___Trentino_Climate_Change_st.pdf) \\
 
 ## Introduction
 Climate change and weather fluctuations are having significant impact on livability in many cities around the whole globe. Since industrial revolution, we observe a significant rise in the concentration of chemical substances which were not present in the atmosphere in such amounts before. The increase of air pollutant concentration can have a significant effect on human health, especially when taken in consideration more sensitive groups, such as elder people, children
@@ -80,3 +79,6 @@ After data modeling phase in [Karma tool](https://usc-isi-i2.github.io/karma/), 
 ### Final KG
 [Final KG files](https://github.com/deketver/Trentino_weather_climate_change/tree/master/Phase_5-Data_definition)
 
+Contains modified Copernicus Atmosphere Monitoring Service information 2024.
+
+[Metadata definition]()
