@@ -58,6 +58,9 @@ This service is widely accessible after granting access. Data has been downloade
 ### Meteotrentino 
 Platform focused on aspects of meteorology, snow science, and glaciology in Trentino province, [webpage](https://www.meteotrentino.it/index.html##!/home).
 
+### Original data
+Link to Google Drive folder with large size datasets: [link](https://drive.google.com/drive/folders/1tZI8BMREt87-yXYlQ85zoB6EBXQoENP5?usp=sharing)
+
 ## ER diagram
 ![ER diagram](/Trentino_weather_climate_change/Phase_5-Data_definition/ER_diagram/ER_diagram.png)
 
