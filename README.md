@@ -73,7 +73,7 @@ Protege modeled
 
 ### Teleontology
 Final created teleontology from formal modeling phase.
-![Teleontology](/Trentino_weather_climate_change/Phase_4-Knowledge_definition/teleontology.jpg)
+![Teleontology](/Phase_4-Knowledge_definition/teleontology.jpg)
 
 ## Data Integradion
 
