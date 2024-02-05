@@ -62,14 +62,14 @@ Platform focused on aspects of meteorology, snow science, and glaciology in Tren
 Link to Google Drive folder with large size datasets: [link](https://drive.google.com/drive/folders/1tZI8BMREt87-yXYlQ85zoB6EBXQoENP5?usp=sharing)
 
 ## ER diagram
-![ER diagram](/Trentino_weather_climate_change/Phase_5-Data_definition/ER_diagram/ER_diagram.png)
+![ER diagram](/Phase_5-Data_definition/ER_diagram/ER_diagram.png)
 
 ## Formal modeling
 Formal modeling was done by creating teleontology by extending our existing teleology with the reference ontologies following the language alignment. Three approaches have been used: Top-Down, Bottom-Up, and Middle-out. In all these approaches reuse the concepts from existing Knowledge resources. The main goal in iTelos process is re-usability and share-ability. Then Language alignment is used for semantic interoperability enhancement. 
 
 ### Defined data properties
 Protege modeled 
-![data properties](/Trentino_weather_climate_change/Phase_2-Information_gathering/protege.jpeg).
+![data properties](/Phase_2-Information_gathering/protege.jpeg).
 
 ### Teleontology
 Final created teleontology from formal modeling phase.
@@ -84,4 +84,4 @@ After data modeling phase in [Karma tool](https://usc-isi-i2.github.io/karma/), 
 
 Contains modified Copernicus Atmosphere Monitoring Service information 2024.
 
-[Metadata definition]()
+[Metadata definition](https://github.com/deketver/Trentino_weather_climate_change/blob/master/Documentation/metadata_definition.xlsx)
